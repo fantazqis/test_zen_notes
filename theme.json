@@ -1,0 +1,12 @@
+{
+  "name": "Zen Notes",
+  "description": "Integrated note-taking component for Zen Browser with context awareness, quick access, and local-first storage. Take notes linked to specific pages or use as a scratchpad.",
+  "author": "Zen Browser Community",
+  "version": "1.0.0",
+  "homepage": "https://github.com/yourusername/zen-notes-mod",
+  "updateURL": "https://github.com/yourusername/zen-notes-mod",
+  "license": "MIT",
+  "tags": ["productivity", "notes", "utility", "sidebar"],
+  "image": "https://raw.githubusercontent.com/yourusername/zen-notes-mod/main/preview.png",
+  "readme": "https://raw.githubusercontent.com/yourusername/zen-notes-mod/main/README.md"
+}

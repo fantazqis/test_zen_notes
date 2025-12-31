@@ -1,0 +1,22 @@
+/* Zen Browser - Custom User Styles */
+/* This file loads custom CSS into Zen Browser */
+
+/* Import the Zen Notes mod styles */
+@import url("notes.css");
+
+/* You can add additional custom styles below */
+
+/* Example: Customize the notes panel width */
+/*
+.zen-notes-sidebar {
+  width: 400px !important;
+}
+*/
+
+/* Example: Custom color scheme */
+/*
+.zen-notes-sidebar {
+  --zen-notes-accent: #ff6b6b !important;
+  --zen-notes-bg: #2d2d2d !important;
+}
+*/

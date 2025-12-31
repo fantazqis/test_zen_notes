@@ -1,0 +1,4 @@
+/* Zen Notes Mod - userChrome.css */
+/* This file imports the notes styles for Sine compatibility */
+
+@import url("notes.css");

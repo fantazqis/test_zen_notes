@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Zen Notes",
+  "version": "1.0.0",
+  "description": "Integrated note-taking component for Zen Browser with context awareness and local storage",
+  "author": "Zen Browser Community",
+  
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["notes.js"],
+      "css": ["notes.css"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zen-notes@browser.mod",
+      "strict_min_version": "100.0"
+    }
+  },
+  
+  "homepage_url": "https://github.com/your-username/zen-notes-mod",
+  
+  "commands": {
+    "toggle-notes": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+N",
+        "mac": "Command+Shift+N"
+      },
+      "description": "Toggle notes panel"
+    }
+  }
+}
