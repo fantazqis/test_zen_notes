@@ -193,7 +193,7 @@
     attachEventListeners() {
       // Toggle sidebar
       document.addEventListener('keydown', (e) => {
-        if (e.ctrlKey && e.shiftKey && e.key === 'N') {
+        if (e.ctrlKey && e.altKey && e.key === 'N') {
           e.preventDefault();
           this.toggleSidebar();
         }
